@@ -22,11 +22,17 @@ node index.js
 
 
 Folder Structure
+
 *controllers/: Contains controller files that handle the business logic of the API.
+
 *models/: Contains Mongoose models for defining the data structure.
+
 *routes/: Contains route files that define the API endpoints.
+
 *config/: Configuration files, such as database configuration.
+
 *index.js: Main application entry point.
+
 
 Ecommerce-API/
 │
@@ -53,8 +59,12 @@ Ecommerce-API/
 
 
 API Endpoints
+
 *POST /products/create: Create a new product.
+
 *GET /products: List all products.
+
 *DELETE /products/:id: Delete a product by ID.
+
 *POST /products/:id/update_quantity/?number=10: Update the quantity of a product.
 
