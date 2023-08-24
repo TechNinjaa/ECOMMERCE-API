@@ -16,7 +16,7 @@ This project implements a basic Ecommerce API for managing product inventory usi
 MONGODB_URI=mongodb://localhost/ecommerce
 
 4.Run the server:
-node index.js
+  node index.js
 
 5. Open Postman or use curl (or an alternative) to test the API endpoints.
 
@@ -35,23 +35,39 @@ Folder Structure
 
 
 Ecommerce-API/
+
 │
+
 ├── controllers/
+
 │ └── productController.js
+
 │
+
 ├── models/
+
 │ └── Product.js
+
 │
+
 ├── routes/
+
 │ └── productRoutes.js
+
 │
+
 ├── config/
+
 │ └── database.js
+
 │
+
 ├── index.js
+
 ├── .env
+
 ├── .gitignore
-├── LICENSE
+
 └── README.md
 
 
